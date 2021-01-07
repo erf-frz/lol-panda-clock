@@ -1,0 +1,89 @@
+*{
+    border:0px;
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #ff684d;
+    color:#211a18;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    height:100vh;
+   
+}
+
+.row{
+    max-width: 1140px;
+    margin:0 auto;  
+}
+
+header{
+    margin:4px 0 15px;
+   
+}
+
+h1{
+    font-size: 200%;
+    font-family: 'Fredericka the Great', cursive; 
+}
+
+h4{
+    font-size: 150%;
+}
+
+.clock{
+    font-size: 200%;
+}
+
+.lolpanImage{
+    background: url(pics/normal.jpg);
+    background-position: center;
+    width: 50%;
+    height:auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin:14px auto 20px 26%; 
+}
+
+.timeEvent{
+  padding-top:60%;
+  color:white;
+  text-shadow: 2px 2px 0 black;
+  font-size: 150%;
+}
+
+.partyTimeButton{
+    width:300px;
+    height:50px;
+    background-color: rgb(53, 77, 78);
+    border-radius: 4px;
+    color: cornsilk;
+    font-size: 120%;
+    font-family: 'Caveat Brush', cursive;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.time{
+    margin:14px auto 10px;
+}
+
+.time span{
+    margin-right: 10px;
+}
+
+.time select{
+    font-size: 105%;
+}
+
+footer p{
+    font-size: 90%;
+}
+
+
+
+
